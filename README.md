@@ -1,6 +1,6 @@
 # Hello, Rust!
 
-> A first project for learning Rust with fully functional Nix support. Uses 
+> A first project for learning Rust with fully functional Nix support. Uses
 > [crane](https://crane.dev/), via [rust-flake](https://github.com/juspay/rust-flake).
 
 ## Getting Started
@@ -27,7 +27,7 @@ The dev shell provides `cargo`, `rust-analyzer`, `rustfmt` and other development
 
 ## Usage
 
-A [`justfile`](https://just.systems/) is included for Makefile'esque commands to be run 
+A [`justfile`](https://just.systems/) is included for Makefile'esque commands to be run
 inside of the devShell.
 
 ```

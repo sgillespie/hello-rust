@@ -6,12 +6,10 @@
     lib,
     ...
   }: {
-    rust-project.crates."hello-rust".crane.args = {
-      # On darwin, you may need framework dependencies like IOKit.
-      # The default SDK now provides these automatically - no need to specify them.
-      # buildInputs = lib.optionals pkgs.stdenv.isDarwin [ pkgs.apple-sdk ];
-    };
-
-    packages.default = self'.packages.hello-rust;
+     rust-project.crates = {
+       "ch1".crane.args.version = "0.1.0";
+       "ch2".crane.args.version = "0.1.0";
+     };
+     packages.default = self'.packages.ch1;
   };
 }

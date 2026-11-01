@@ -1,6 +1,7 @@
-/target
+# Rust
+target/
+
+# Nix
 /result
 /result-lib
 .direnv
-
-/.pre-commit-config.yaml

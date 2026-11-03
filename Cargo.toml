@@ -1,6 +1,3 @@
 [workspace]
 resolver = "3"
-members = [
-  "chapters/ch1",
-  "chapters/ch2"
-]
+members = ["chapters/ch1", "chapters/ch2", "chapters/ch3"]

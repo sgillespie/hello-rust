@@ -1,0 +1,8 @@
+[package]
+authors = ["Sean Gillespie <sean@mistersg.net>"]
+edition = "2024"
+name = "ch4"
+version = "0.1.0"
+description = "Chapter 4 material from The Rust Programming Language"
+
+[dependencies]

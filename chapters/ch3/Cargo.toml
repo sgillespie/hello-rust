@@ -2,5 +2,6 @@
 name = "ch3"
 version = "0.1.0"
 edition = "2024"
+description = "Chapter 3 material from The Rust Programming Language"
 
 [dependencies]

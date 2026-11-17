@@ -11,7 +11,8 @@
       "ch2".crane.args.version = "0.1.0";
       "ch3".crane.args.version = "0.1.0";
       "ch4".crane.args.version = "0.1.0";
+      "ch5".crane.args.version = "0.1.0";
     };
-    packages.default = self'.packages.ch1;
+    packages.default = self'.packages.ch5;
   };
 }
